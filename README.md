@@ -2,7 +2,7 @@
 
 A comprehensive electronic scale built with Raspberry Pi Pico W, featuring WiFi connectivity, web interface, MQTT integration, and power management.
 
-## 📋 Features
+## Features
 
 - **Weight Measurement**: 0-1kg range with high accuracy (±4g)
 - **Dual Units**: Switch between grams (g) and ounces (oz)
@@ -15,7 +15,7 @@ A comprehensive electronic scale built with Raspberry Pi Pico W, featuring WiFi 
 - **Button Controls**: Tare function and unit switching with long-press save
 - **Three-Point Calibration**: Precision calibration with 0g, 500g, and 1kg weights
 
-## 🛠 Hardware Components
+## Hardware Components
 
 | Quantity | Component | Description |
 |----------|-----------|-------------|
@@ -27,7 +27,7 @@ A comprehensive electronic scale built with Raspberry Pi Pico W, featuring WiFi 
 
 
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Prepare the Raspberry Pi Pico W
 
@@ -52,7 +52,7 @@ HOTSPOT_PSWD = "scale123"
 
 Connect components according to the wiring diagram.
 
-## 🎯 First Time Setup
+## First Time Setup
 
 ### Initial Calibration
 
@@ -73,7 +73,7 @@ The scale will attempt to connect to your configured WiFi network. If unsuccessf
 - **IP Address**: Displayed on OLED screen
 
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -112,14 +112,3 @@ The scale will attempt to connect to your configured WiFi network. If unsuccessf
 ### Recalibration
 Delete `calibration.json` file and restart device to force recalibration.
 
-
-## 🔒 Security Considerations
-
-- Change default hotspot credentials in `config.py`
-- Use WPA2 secured WiFi networks
-- Consider MQTT authentication for production use
-- Limit web interface access to trusted networks
-
-## 📄 License
-
-This project is provided as-is for educational and personal use. Modify and distribute according to your needs.
